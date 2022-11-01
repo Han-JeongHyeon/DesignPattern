@@ -1,7 +1,7 @@
 package com.example.designpattern.StrategyPattern
 
-interface Weapon {
+interface Move {
 
-    fun action()
+    fun move()
 
 }
