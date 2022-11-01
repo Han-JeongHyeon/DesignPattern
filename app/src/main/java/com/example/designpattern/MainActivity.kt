@@ -91,11 +91,11 @@ class MainActivity : AppCompatActivity() {
 //        greenCircle.draw()
 
         //컴포지트 패턴 (Composite Pattern)
-        val folder1 = Folder("폴더 1")
-
-        folder1.add("파일 1", File("파일 1",300))
-
-        folder1.getSize()
+//        val folder1 = Folder("폴더 1")
+//
+//        folder1.add("파일 1", File("파일 1",300))
+//
+//        folder1.getSize()
 
     }
 }
