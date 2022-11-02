@@ -7,11 +7,10 @@ package com.example.designpattern.PrototypePattern
 class CloneArray: Clone {
     private var list = ArrayList<String>()
 
-    fun loadData(){
-        list.add("가")
-        list.add("나")
-        list.add("다")
-        list.add("라")
+    fun data(){
+        list.add("LOL")
+        list.add("Overwatch")
+        list.add("FIFA")
     }
 
     fun getDataList(): ArrayList<String>? {

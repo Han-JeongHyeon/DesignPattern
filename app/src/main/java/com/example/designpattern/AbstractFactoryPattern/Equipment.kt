@@ -1,7 +1,7 @@
 package com.example.designpattern.AbstractFactoryPattern
 
-interface Helmet {
+interface Equipment {
 
-    fun wear(): String
+    fun equipment(): String
 
 }

@@ -5,7 +5,5 @@ package com.example.designpattern.SingletonPattern
 * */
 
 object Tag {
-
     val TAG by lazy { "JavaDesignPatten" }
-
 }

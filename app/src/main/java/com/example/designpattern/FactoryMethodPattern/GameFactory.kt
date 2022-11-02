@@ -5,10 +5,10 @@ package com.example.designpattern.FactoryMethodPattern
 * Main에서 Name을 정해주면 그 Name에 값을 가진 클래스를 가져와 준다
 * */
 
-class MonsterFactory {
+class GameFactory {
 
-    fun makeMonster(name: String): Monster{
-        return if (name == "Slime") Slime() else Dragon()
+    fun getGame(name: String): Game{
+        return if (name == "FIFA") FIFA() else Overwatch()
     }
 
 }

@@ -1,7 +1,7 @@
 package com.example.designpattern.AbstractFactoryPattern
 
-interface Rider {
+interface GamingTool {
 
-    fun delivery(): String
+    fun tool(): String
 
 }
