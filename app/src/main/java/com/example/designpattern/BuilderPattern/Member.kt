@@ -3,17 +3,16 @@ package com.example.designpattern.BuilderPattern
 import android.util.Log
 import com.example.designpattern.SingletonPattern.Tag
 
-class Member(builder: Builder) {
-    var name: String = ""
-    var gender: String = ""
-    var age: Int = 0
-    var job: String = ""
+class Member {
+    private var name: String = ""
+    private var gender: String = ""
+    private var age: Int = 0
+    private var job: String = ""
 
-    class Builder() {
-
+    class Builder {
         var name = ""
         var gender = ""
-        var age = 25
+        var age = 0
         var job = ""
 
         fun name(name: String): Builder{
@@ -41,7 +40,7 @@ class Member(builder: Builder) {
         }
     }
 
-    init {
+    constructor(builder: Builder) {
         name = builder.name
         gender = builder.gender
         age = builder.age

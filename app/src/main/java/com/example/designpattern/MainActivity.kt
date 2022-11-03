@@ -73,13 +73,11 @@ class MainActivity : AppCompatActivity() {
 //        Log.d(Tag.TAG, "${list1.getDataList()}")
 //
         //빌더 패턴 (Builder Pattern)
-        val userList = Member.Builder()
+        Member.Builder()
             .name("True")
             .gender("남")
-            .age(12)
+            .age(19)
             .build()
-
-        Log.d(Tag.TAG, "${userList.name} ${userList.gender} ${userList.age}")
 
 //        //추상 팩토리 패턴 (Abstract Factory Pattern)
 //        val gameService1 = GameService(ComputerFactory())
